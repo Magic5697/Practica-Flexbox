@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap');
+
+
+body{
+    background-color: aliceblue;
+}
+
+:root{
+    /* c es igual al color */
+    /* el numero representa la jerarquia del color*/
+    --color-primario:  rgb(164, 10, 203);
+    --color-secundario:rgb(53, 236, 53);
+    --color-terciario: rgb(161, 146, 146);
+    --color_blanco: white;
+
+}
+
+
+h1{
+    text-align: center;
+    color: brown;
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* este es el padre */
+.flex__container{
+    background-color: var(--color-terciario);
+    border: 5px solid blueviolet;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin:  0 auto;
+    justify-content: center;
+    padding: 10px;
+    -webkit-box-shadow: 17px 3px 27px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 17px 3px 27px 2px rgba(0,0,0,0.75);
+box-shadow: 17px 3px 27px 2px rgba(0,0,0,0.75);
+}
+
+/*hijos*/
+.box__01{
+    font-size: 30px;
+    background-color: var(--color-primario);
+    background: linear-gradient(to bottom, rgba(0, 0, 255, 0.351), green), url("https://images.unsplash.com/photo-1717190814547-6471d1fa047f?q=80&w=1923&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border: solid rgb(240, 235, 235) 5px;
+    color: var(--color_blanco);
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+.box__02{
+    font-size: 30px;
+    background-color: var(--color-secundario);
+    background:linear-gradient(to bottom, rgba(0, 0, 255, 0.351), green), url("https://images.unsplash.com/photo-1712025853995-d59634cf286e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    border: solid black 5px;
+    color: aliceblue;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+    }
+
+    .box__03{
+        font-size: 30px;
+        background-color:var(--color-terciario);
+        background:linear-gradient(to bottom, rgba(0, 0, 255, 0.351), green), url("https://plus.unsplash.com/premium_photo-1669223464455-26df96c59901?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center no-repeat;
+        background-size: cover;
+        width: 250px;
+        height: 150px;
+        line-height: 150px;
+        text-align: center;
+        border: solid black 5px;
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .box__04{
+        font-size: 20px;
+        background-color: var(--color-primario);
+        background:linear-gradient(to bottom, rgba(0, 255, 145, 0.345), rgb(145, 132, 207)), url("https://images.unsplash.com/photo-1711322535265-81a1961465e3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center no-repeat;
+        background-size: cover;
+        width: 250px;
+        height: 150px;
+        line-height: 150px;
+        text-align: center;
+        border: solid black 5px;
+        font-family: "Pacifico", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
